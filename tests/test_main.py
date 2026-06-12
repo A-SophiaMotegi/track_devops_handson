@@ -17,7 +17,7 @@ def test_add():
   assert add(100, 200) == 300
   assert add(0.9, 0.9) == 1
   assert add(1.1, 1.1) == 2
-  assert add(-1.5, -1.5) == -2
+  assert add(-1.5, -1.5) == -3
   assert add("a", 1) == "error"
   assert add(1, "b") == "error"
   assert add("a", "b") == "error"
