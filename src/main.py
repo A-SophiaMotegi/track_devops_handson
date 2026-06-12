@@ -1,5 +1,5 @@
 def add(a, b, c=0):
-  try:
-    return int(a + b) + int(c)
-  except:
-    return "error"
+    try:
+        return a + b + c
+    except:
+        return "error"
